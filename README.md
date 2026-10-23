@@ -19,10 +19,10 @@
 - **デザイン**: Modern Dark UI (レスポンシブ対応)
 
 ## 👥 チーム役割分担 (Team 2)
-- **室岡**: 全体進行、プログラム管理、アプリ構成設計、画面デザイン (`index.html`, `style.css`, `main.js`)
-- **高橋**: 楽曲検索・登録機能、Spotify API連携 (`js/spotify.js`, `data/mock-tracks.json`)
-- **村上**: 楽曲の分析アルゴリズム、おすすめ楽曲の選定処理 (`js/analyzer.js`)
-- **秋永**: 分析結果表示、推薦理由表示、UIインタラクション (`js/ui.js`, `js/ai.js`, `css/components.css`)
+全体進行、プログラム管理、アプリ構成設計、画面デザイン (`index.html`, `style.css`, `main.js`)
+楽曲検索・登録機能、Spotify API連携 (`js/spotify.js`, `data/mock-tracks.json`)
+楽曲の分析アルゴリズム、おすすめ楽曲の選定処理 (`js/analyzer.js`)
+分析結果表示、推薦理由表示、UIインタラクション (`js/ui.js`, `js/ai.js`, `css/components.css`)
 
 ## 🚀 使い方
 1. 本リポジトリをクローンまたはダウンロードします。
