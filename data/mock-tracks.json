@@ -1,0 +1,137 @@
+[
+  {
+    "id": "t1",
+    "title": "Pretender",
+    "artist": "Official髭男dism",
+    "album": "Traveler",
+    "year": 2019,
+    "genre": "J-Pop",
+    "cover": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t2",
+    "title": "怪獣の花唄",
+    "artist": "Vaundy",
+    "album": "strobo",
+    "year": 2020,
+    "genre": "J-Rock",
+    "cover": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t3",
+    "title": "アイドル",
+    "artist": "YOASOBI",
+    "album": "THE BOOK 3",
+    "year": 2023,
+    "genre": "J-Pop",
+    "cover": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t4",
+    "title": "ドライフラワー",
+    "artist": "優里",
+    "album": "壱",
+    "year": 2020,
+    "genre": "J-Pop",
+    "cover": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t5",
+    "title": "Marunouchi Sadistic",
+    "artist": "椎名林檎",
+    "album": "無罪モラトリアム",
+    "year": 1999,
+    "genre": "J-Rock",
+    "cover": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t6",
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "album": "÷ (Divide)",
+    "year": 2017,
+    "genre": "Pop",
+    "cover": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t7",
+    "title": "Stay",
+    "artist": "The Kid LAROI & Justin Bieber",
+    "album": "F*CK LOVE 3",
+    "year": 2021,
+    "genre": "Pop",
+    "cover": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t8",
+    "title": "Plastic Love",
+    "artist": "竹内まりや",
+    "album": "VARIETY",
+    "year": 1984,
+    "genre": "City Pop",
+    "cover": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t9",
+    "title": "RIDE ON TIME",
+    "artist": "山下達郎",
+    "album": "RIDE ON TIME",
+    "year": 1980,
+    "genre": "City Pop",
+    "cover": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t10",
+    "title": "First Love",
+    "artist": "宇多田ヒカル",
+    "album": "First Love",
+    "year": 1999,
+    "genre": "R&B / J-Pop",
+    "cover": "https://images.unsplash.com/photo-1445985543470-41fba5c3144a?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t11",
+    "title": "群青",
+    "artist": "YOASOBI",
+    "album": "THE BOOK",
+    "year": 2020,
+    "genre": "J-Pop",
+    "cover": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t12",
+    "title": "踊り子",
+    "artist": "Vaundy",
+    "album": "replica",
+    "year": 2021,
+    "genre": "J-Rock",
+    "cover": "https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t13",
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "album": "After Hours",
+    "year": 2019,
+    "genre": "Pop / Synthwave",
+    "cover": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t14",
+    "title": "Subtitle",
+    "artist": "Official髭男dism",
+    "album": "ミックスナッツ EP",
+    "year": 2022,
+    "genre": "J-Pop",
+    "cover": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "id": "t15",
+    "title": "ミックスナッツ",
+    "artist": "Official髭男dism",
+    "album": "ミックスナッツ EP",
+    "year": 2022,
+    "genre": "J-Pop",
+    "cover": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=300&q=80"
+  }
+]

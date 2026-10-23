@@ -1,0 +1,126 @@
+/* 全体基本スタイル & デザインシステム */
+:root {
+  --bg-dark: #0f0f15;
+  --bg-card: #181824;
+  --bg-input: #232334;
+  --accent-primary: #6366f1;
+  --accent-primary-hover: #4f46e5;
+  --accent-secondary: #ec4899;
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+  --border-color: #2e2e42;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+  --transition: all 0.25s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  line-height: 1.6;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto 30px auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.logo-group h1 {
+  font-size: 28px;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.logo-group p {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.btn-secondary {
+  background: var(--bg-input);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 14px;
+  transition: var(--transition);
+}
+
+.btn-secondary:hover {
+  background: var(--border-color);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: var(--transition);
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.main-layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 850px) {
+  .main-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.section-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}

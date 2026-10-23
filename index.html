@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OtoGraph - 好きな楽曲の分析・推薦アプリ</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="app-header">
+    <div class="logo-group">
+      <h1>OtoGraph</h1>
+      <p>あなたの音楽の好みを可視化・言語化する楽曲分析＆推薦アプリ</p>
+    </div>
+    <button id="open-api-modal-btn" class="btn-secondary">⚙️ APIキー設定</button>
+  </header>
+
+  <!-- メインコンテンツレイアウト -->
+  <main class="main-layout">
+
+    <!-- 1. 楽曲検索・登録エリア -->
+    <section class="section-card">
+      <h2 class="section-title">🔍 1. 好きな楽曲を検索・追加</h2>
+      <div class="search-box">
+        <input type="text" id="search-input" class="search-input" placeholder="曲名、アーティスト、ジャンルを入力...">
+      </div>
+      <div id="search-results" class="track-list"></div>
+    </section>
+
+    <!-- 2. 登録済み楽曲エリア -->
+    <section class="section-card">
+      <h2 class="section-title">🎵 登録中の楽曲</h2>
+      <div id="registered-tracks" class="track-list"></div>
+    </section>
+
+    <!-- 3. AI分析 & 好みの可視化エリア (全幅) -->
+    <section class="section-card full-width">
+      <h2 class="section-title">📊 2. 音楽の好み分析 & AIキャッチコピー</h2>
+      
+      <!-- AI 言語化領域 -->
+      <div id="ai-result-box" class="ai-box"></div>
+
+      <!-- 分析グラフ領域 -->
+      <div class="analysis-grid">
+        <div class="section-card" style="padding:16px;">
+          <h3 class="section-title" style="font-size:14px;">ジャンル構成</h3>
+          <div id="genre-bars" class="bar-group"></div>
+        </div>
+        <div class="section-card" style="padding:16px;">
+          <h3 class="section-title" style="font-size:14px;">リリース年代</h3>
+          <div id="era-bars" class="bar-group"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. おすすめ楽曲 & 選出理由エリア (全幅) -->
+    <section class="section-card full-width">
+      <h2 class="section-title">✨ 3. あなたへのおすすめ楽曲 (理由付き)</h2>
+      <div id="recommendations"></div>
+    </section>
+
+  </main>
+
+  <!-- APIキー設定モーダル -->
+  <div id="api-key-modal" class="modal-overlay">
+    <div class="modal-content">
+      <h3 class="section-title">APIキー設定</h3>
+      <p class="track-meta" style="margin-bottom:12px;">
+        Gemini APIキーを設定すると、AIがよりパーソナライズされたキャッチコピーと詳細な分析文章を生成します。（未設定でも定型文モードで動作します）
+      </p>
+      <input type="password" id="api-key-input" class="search-input" placeholder="AI API Key (e.g. AIzaSy...)" style="width:100%; margin-bottom:16px;">
+      <div style="display:flex; justify-content:flex-end; gap:8px;">
+        <button id="close-modal-btn" class="btn-secondary">キャンセル</button>
+        <button id="save-key-btn" class="btn-primary">保存する</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
